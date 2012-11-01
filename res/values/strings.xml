@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Vplan IGSmz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_freistundenplaner">Vplan</string>
+
+</resources>

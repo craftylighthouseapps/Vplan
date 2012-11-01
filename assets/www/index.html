@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	</head>
+	<body>
+    	<div data-role="page" id="vplan">
+    	  	<div data-role="header" data-theme="b">
+				<h2>
+					Vertretungsplan
+				</h2>							
+  			</div>
+      		<div data-role="content">
+				<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-theme="e" data-content-theme="e">
+	  				<h2>Hinweis</h2>
+	  				<p>Leider kann man im Vertretungsplan nicht den ganzen Namen des zweiten Tages zur Auswahl oben rechts sehen.
+	  				Der Link funktioniert aber trotzdem, also kann man einfach auf den sichtbaren Teil des Namens tippen.
+	  				Wir arbeiten aber bereits an einer L&ouml;sung des Problems!</p>
+				</div>
+				<a href="#impressum" data-role="button" data-icon="info">Impressum</a>
+        
+				<iframe src="http://vplan.igsmz.net" name="vplan" width="100%" height="70%" frameborder="0" padding="0px" margin="0px">
+	  				<a href="http://vplan.igsmz.net" target="_blank">
+	    				Diese Seite enth&auml;lt integrierte Frames.
+	  				</a>
+				</iframe>
+      		</div>
+    	</div>
+    	<div data-role="page" id="impressum">
+    		<div data-role="header" data-theme="b">
+    			<a href="#vplan" data-icon="back">
+    				Zur&uuml;ck
+				</a>
+    			<h2>
+    				Impressum
+				</h2>
+			</div>
+			<div data-role="content">
+				<h3>Vertretungsplan</h3>
+				Felix Buchm&uuml;ller<br>
+				Lena G&ouml;th<br>
+				Maximilian von B&uuml;low<br>
+				Noah Haas<br>
+				
+				Das ganze Impressum findet ihr auch auf der Homepage des Vertretungsplan:
+				<a href="#imprint" data-role="button" data-icon="forward">Impressum</a>
+				
+				<h3>App</h3>
+				Julian Erbeling<br>
+				kontakt@julian-erbeling.de
+				<a href="mailto:kontakt@julian-erbeling.de" data-role="button" data-icon="plus">E-Mail schreiben</a>
+			</div>
+		</div>
+		<div data-role="page" id="imprint">
+			<div data-role="header" data-theme="b">
+				<a href="#impressum" data-icon="back">
+					Zur&uuml;ck
+				</a>
+				<h2>Vplan-Impressum</h2>
+			</div>
+			<div data-role="content">
+				<iframe src="http://vplan.igsmz.net/imprint" name="vplan" width=100% height=100% frameborder="0">
+	  				<a href="http://vplan.igsmz.net/imprint" target="_blank">
+	    				Diese Seite enth&auml;lt integrierte Frames.
+	  				</a>
+				</iframe>
+			</div>
+		</div>
+	</body>
+</html>
