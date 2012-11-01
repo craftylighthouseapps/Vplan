@@ -1,1 +1,0 @@
-Der Vertretungsplan der IGS Bretzenheim als Android-App.
